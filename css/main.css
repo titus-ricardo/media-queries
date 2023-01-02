@@ -1,0 +1,51 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: sans-serif;
+	margin: 1.5rem;
+
+}
+
+.main-content {
+	display: grid;
+	gap: 1.5em;
+}
+
+
+.alert-info, h1, nav, .header-img {
+	text-align: center;
+}
+
+.alert-info {
+	border: 1px solid grey;
+	background-color: hsl(180, 100%, 90%);
+	padding: 2.2rem;
+}
+
+.alert-info a {
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+
+h1 {
+	font-size: 8.5rem;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
+ul {
+	list-style: none;
+
+
+}
+
+li {
+	background-color: rgb(204, 204, 204);
+	padding: 2.5rem 0;
+	margin: 2rem 0;
+}	
