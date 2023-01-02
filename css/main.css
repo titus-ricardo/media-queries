@@ -5,13 +5,15 @@
 
 body {
 	font-family: sans-serif;
-	margin: 1.5rem;
+	margin: 1.5rem 1.5rem;
 
 }
 
 .main-content {
 	display: grid;
 	gap: 1.5em;
+	width: 100%;
+	margin-bottom: 10rem;
 }
 
 
@@ -48,4 +50,40 @@ li {
 	background-color: rgb(204, 204, 204);
 	padding: 2.5rem 0;
 	margin: 2rem 0;
-}	
+}
+
+img {
+	width: 100%;
+}
+
+h2	{
+	font-size: 4.5rem;
+}
+
+.main, .sub-section {
+	display: grid;
+	gap: 2rem;
+}
+
+.main {
+	margin-bottom: 4rem;
+}
+
+.sub-section h2 {
+	font-size: 3.5rem;
+}
+
+.sub-section {
+	font-style: italic;
+}
+
+footer {
+display: flex;
+	justify-content: space-between;
+	flex-basis: 50%;
+
+}
+.key {
+	height:3rem;
+	width: 3rem;
+}
