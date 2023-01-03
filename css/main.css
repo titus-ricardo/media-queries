@@ -108,9 +108,9 @@ footer p {
 		margin: 0;
 	}
 
-	.header-img {
+	/*.header-img {
 		grid-column: 1 / 2;
-	}
+	}*/
 
 	h1 {
 		text-align: left;
